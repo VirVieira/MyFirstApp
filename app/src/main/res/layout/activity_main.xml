@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:hint="Digite seu Peso"
         android:inputType="numberDecimal"
-        android:maxLength="6"/>
+        android:maxLength="10"/>
 
     <EditText
         android:id="@+id/edittext_altura"
