@@ -27,7 +27,7 @@ Eu participei do desafio 10D na comunidade DevSpace e consegui sair do ZERO.
 - Melhorar estilização do app
 
 ## Author
-Virgínia Vieira (follow me on [Linkedin]([https://twitter.com/roquebuarque](https://www.linkedin.com/in/virg%C3%ADnia-m-neres-vieira/)))
+Virgínia Vieira (follow me on [Linkedin]([https://www.linkedin.com/in/virg%C3%ADnia-m-neres-vieira/)])
 
 ## License
 ```
