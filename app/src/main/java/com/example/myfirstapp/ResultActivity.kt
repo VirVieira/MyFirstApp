@@ -1,11 +1,13 @@
 package com.example.myfirstapp
 
+import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
 import android.widget.TextView
 
 class ResultActivity : AppCompatActivity() {
+    @SuppressLint("StringFormatInvalid")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_result)
