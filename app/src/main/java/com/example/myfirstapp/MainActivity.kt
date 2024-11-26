@@ -7,41 +7,30 @@ import android.os.Message
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
-import com.example.myfirstapp.R.id.edittext_peso
-import com.example.myfirstapp.R.id.edittext_peso
 import android.widget.Toast
+import com.google.android.material.textfield.TextInputEditText
 
 class MainActivity() : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val btnCalcular: Button = findViewById(R.id.btnCalcular)
-        val edtPeso: EditText = findViewById(edittext_peso)
-        val edtAltura: EditText = findViewById(R.id.edittext_altura)
+        // Recuperar os componentes EditText
+        // Criar uma Variável e associar (=)o componente de UI<EditText>
+        // Recuperar o botão da tela
+
+        // Colocar ação no botão setOnClickListener
+        // Recuperar o texto digitando no edt Peso
+
+        val edtPeso = findViewById<TextInputEditText>(R.id.edt_peso)
+        val edtAltura = findViewById<TextInputEditText>(R.id.edt_altura)
+        val btnCalcular = findViewById<Button>(R.id.btn_calcular)
 
         btnCalcular.setOnClickListener {
-
-            val alturaStr = edtAltura.text.toString()
-            val pesoStr = edtPeso.text.toString()
-
-            if (alturaStr.isNotEmpty() && pesoStr.isNotEmpty()) {
-                val altura: Float = alturaStr.toFloat()
-                val peso: Float = pesoStr.toFloat()
-
-                val alturafinal: Float = altura * altura
-                val result: Float = peso / alturafinal
-
-                val intent = Intent(this , ResultActivity::class.java)
-                    .apply {
-                        putExtra("EXTRA_RESULT" , result)
-                    }
-                startActivity(intent)
-            } else {
-                Toast.makeText(this , "Preencher todos os campos" , Toast.LENGTH_LONG).show()
-            }
-
+            val peso = edtPeso.text
+            val altura = edtAltura.text
         }
 
     }
+
 }
