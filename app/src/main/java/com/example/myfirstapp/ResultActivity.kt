@@ -6,6 +6,8 @@ import android.os.Bundle
 import android.view.MenuItem
 import android.widget.TextView
 
+const val KEY_RESULT_IMC = "ResultActivity.KEY_IMC"
+
 class ResultActivity : AppCompatActivity() {
     @SuppressLint("StringFormatInvalid")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,10 +17,10 @@ class ResultActivity : AppCompatActivity() {
         supportActionBar?.setHomeButtonEnabled(true)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
-        val tvResult = findViewById<TextView>(R.id.textview_result)
-        val tvClassificacao = findViewById<TextView>(R.id.textview_classificacao)
+        val result = intent.getFloatExtra("KEY_RESULT_IMC", 0.1f)
 
-        val result = intent.getFloatExtra("EXTRA_RESULT", 0.1f)
+       val tvResult = findViewById<TextView>(R.id.tv_result)
+        val tvClassificacao = findViewById<TextView>(R.id.tv_classificacao)
 
         tvResult.text = result.toString()
 
@@ -33,7 +35,7 @@ class ResultActivity : AppCompatActivity() {
         }else{
             "OBESIDADE GRAVE"
         }
-        tvClassificacao.text = getString(R.string.message_classificacao, classificacao)
+        tvClassificacao.text = classificacao
 
     }
 
