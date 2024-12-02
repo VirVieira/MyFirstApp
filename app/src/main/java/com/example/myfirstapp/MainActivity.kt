@@ -8,6 +8,7 @@ import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
+import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.textfield.TextInputEditText
 
 class MainActivity() : AppCompatActivity() {
@@ -16,21 +17,23 @@ class MainActivity() : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         // Recuperar os componentes EditText
-        // Criar uma Variável e associar (=)o componente de UI<EditText>
-        // Recuperar o botão da tela
+        //Criar uma variável e associar o componente de UI<EditText>
 
-        // Colocar ação no botão setOnClickListener
-        // Recuperar o texto digitando no edt Peso
 
         val edtPeso = findViewById<TextInputEditText>(R.id.edt_peso)
         val edtAltura = findViewById<TextInputEditText>(R.id.edt_altura)
         val btnCalcular = findViewById<Button>(R.id.btn_calcular)
 
+        // Recuperar o botao da tela
+        // Recuperar o texto digitiado no edt peso
+
         btnCalcular.setOnClickListener {
             val peso = edtPeso.text
             val altura = edtAltura.text
         }
-
     }
+
+
+
 
 }
