@@ -19,6 +19,8 @@ class ResultActivity : AppCompatActivity() {
 
         val result = intent.getFloatExtra("KEY_RESULT_IMC", 0.1f)
 
+        println("Virginia" + result)
+
        val tvResult = findViewById<TextView>(R.id.tv_result)
         val tvClassificacao = findViewById<TextView>(R.id.tv_classificacao)
 
