@@ -8,5 +8,7 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="red">#FFCF2929</color>
+    <color name="primary_400">#cd00ea</color>
+    <color name="primary_900">#5c00d2</color>
 
 </resources>

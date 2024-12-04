@@ -57,7 +57,9 @@ class MainActivity() : AppCompatActivity() {
                 intent.putExtra("KEY_RESULT_IMC", resultado)
                 startActivity(intent)
 
-                    println("Virginia" + resultado)
+                   // Cores
+                  // EditText Background + Icone
+                // Gradiente + Icone + titulo  + descrição
 
                 }
             }
