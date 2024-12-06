@@ -5,7 +5,10 @@ Eu participei do desafio 10D na comunidade DevSpace e consegui sair do ZERO.
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
-<img src="/results/imagem1.jpg" width="260">&emsp;<img src="/results/imagem2.jpg" width="260">&emsp;<img src="/results/imagem3.jpg" width="260">
+<img src = "https://github.com/user-attachments/assets/1eb581f2-97d8-40b8-835a-539ecbae7b5b" 
+   width = 260/>
+<img src = "https://github.com/user-attachments/assets/204b2d80-d10d-4fd4-8d0e-7d81b5718b9a" 
+   width = 260/>
 
 ## Tecnologias
 * Kotlin
