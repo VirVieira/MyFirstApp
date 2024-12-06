@@ -12,14 +12,18 @@ Eu participei do desafio 10D na comunidade DevSpace e consegui sair do ZERO.
 
 ## Tecnologias
 * Kotlin
-* Activity para host de telas
-* ViewGroup
-    * RelativeLayout
-    * LinearLayout
-- Components de UI
-    - TextView
-    - EditText
-    - Button
+* Activity
+* Intent
+* SnackBar
+* ViewGroups
+  - LinearLayout
+  - ConstraintLayout
+- Views
+   - ImageView
+   - TextView
+   - EditText
+   - Button
+     
 - Toast para display de mensagens
 - Intent Explicita para abrir a segunda Activity
 - FindViewById para recuperar components de UI
