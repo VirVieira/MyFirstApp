@@ -1,7 +1,18 @@
 # MyFirstApp
 # Calculadora IMC
-Calculadora de IMC foi um aplicativo que desenvolvi para dar meus primeiros passos com desenvolvimento Android. 
-Eu participei do desafio 10D na comunidade DevSpace e consegui sair do ZERO. 
+Este é um projeto simples de uma Calculadora de IMC (Índice de Massa Corporal) desenvolvido como parte do meu aprendizado em desenvolvimento Android. O aplicativo permite que os usuários insiram seu peso e altura e obtenham o resultado do cálculo de IMC, indicando em qual faixa de peso eles se encontram.
+
+#Funcionalidades
+
+Entrada de peso e altura: Os usuários podem inserir os valores desejados em quilogramas (kg) e metros (m).
+Cálculo do IMC: O aplicativo calcula o IMC com base na fórmula:
+
+Classificação: Apresenta a classificação do IMC com base nos padrões da OMS (Organização Mundial da Saúde):
+
+Abaixo do peso
+Peso normal
+Sobrepeso
+Obesidade
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
@@ -9,6 +20,21 @@ Eu participei do desafio 10D na comunidade DevSpace e consegui sair do ZERO.
    width = 260/>
 <img src = "https://github.com/user-attachments/assets/204b2d80-d10d-4fd4-8d0e-7d81b5718b9a" 
    width = 260/>
+
+   #Aprendizados
+
+Durante o desenvolvimento deste projeto, adquiri experiência em:
+
+Criação de interfaces simples com XML.
+Manipulação de entradas do usuário no Android.
+Realização de cálculos e exibição de resultados de maneira amigável ao usuário.
+
+#Melhorias Futuras
+
+Adicionar validação para entradas inválidas (ex.: campos vazios ou valores negativos).
+Implementar um design responsivo e mais atraente.
+Adicionar suporte a outros idiomas.
+Incluir mais informações sobre saúde relacionadas ao IMC.
 
 ## Tecnologias
 * Kotlin
